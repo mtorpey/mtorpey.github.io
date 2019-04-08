@@ -11,6 +11,12 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Second field</th>
+    {% for post in site.talks reversed %}
+      {% include archive-single-talk.html %}
+    {% endfor %}
+  </tr>
+</table>
