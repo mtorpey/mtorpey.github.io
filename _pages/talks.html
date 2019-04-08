@@ -12,9 +12,10 @@ author_profile: true
 {% endif %}
 
 <table>
-  <tr>
+  <tr class="list__item">
     <th>Title</th>
-    <th>Second field</th>
+    <th>Date</th>
+    <th>Location</th>
     {% for post in site.talks reversed %}
       {% include archive-single-talk.html %}
     {% endfor %}

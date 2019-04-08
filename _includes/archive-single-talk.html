@@ -31,10 +31,8 @@
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
     {% endif %}
   </td>
-  {% if post.read_time %}
-    <td class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</td>
-  {% endif %}
-  {% if post.date %}<td class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</td>{% endif %}
-  {% if post.venue %}<td class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}}</td>{% endif %}
-  {% if post.excerpt %}<td class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</td>{% endif %}
+  <!--{% if post.read_time %}<td class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</td>{% endif %}*/-->
+  {% if post.date %}<td class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%Y-%m-%d' }}</td>{% endif %}
+  {% if post.venue %}<td class="archive__item-excerpt" itemprop="description">{{ post.venue }},  {{post.location}}</td>{% endif %}
+  <!--{% if post.excerpt %}<td class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</td>{% endif %}-->
 </tr>
