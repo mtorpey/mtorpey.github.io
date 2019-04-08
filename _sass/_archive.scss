@@ -48,6 +48,10 @@
   }
 }
 
+.archive__item-date {
+  white-space: nowrap;
+}
+
 /* remove border*/
 .page__content {
 
@@ -106,9 +110,6 @@
     margin: 0 0 4px;
   }
 
-  .archive__item-date {
-    white-space: nowrap;
-  }
 }
 
 
