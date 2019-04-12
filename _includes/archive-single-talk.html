@@ -35,7 +35,11 @@
   {% if post.date %}<td class="archive__item-date"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%Y-%m-%d' }}</td>{% endif %}
   {% if post.event %}
     <td class="archive__item-excerpt" itemprop="description">
-      {{post.event}},
+      {% if post.eventlink %}
+        <a href="{{ post.eventlink }}">{{ post.event }},</a>
+      {% else %}
+        {{post.event}},
+      {% endif %}
       {{post.location}}
     </td>
   {% endif %}
