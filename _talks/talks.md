@@ -3,6 +3,7 @@ title: "pypersist: Persistent memoisation framework for Python"
 event: "Free Computational Mathematics"
 location: "CIRM"
 link: "https://mybinder.org/v2/gh/mtorpey/pypersist/master?filepath=binder/demo.ipynb"
+eventlink: "https://opendreamkit.org/2019/02/11/FreeComputationalMathematicsConference/"
 date: 2019-02-14
 ---
 
@@ -48,9 +49,10 @@ date: 2017-05-17
 
 ---
 title: "An Introduction to GAP"
-event: "<a href="http://www-groups.mcs.st-and.ac.uk/~ac323/index.html">Pure Postgraduate Seminar</a>"
+event: "Pure Postgraduate Seminar"
 location: "St Andrews"
 link: "files/pps6-input.g"
+eventlink: "http://www-groups.mcs.st-and.ac.uk/~ac323/index.html"
 date: 2017-02-13
 ---
 
@@ -64,9 +66,10 @@ date: 2017-01-20
 
 ---
 title: "Diagram Semigroups"
-event: "<a href="http://www.math.uwaterloo.ca/~strosche/pps.html">Pure Postgraduate Seminar</a>"
+event: "Pure Postgraduate Seminar"
 location: "St Andrews"
 link: "files/pps5-slides.pdf"
+eventlink: "http://www.math.uwaterloo.ca/~strosche/pps.html"
 date: 2016-11-24
 ---
 
@@ -80,9 +83,10 @@ date: 2016-05-31
 
 ---
 title: "Dolphin Semigroups"
-event: "<a href="http://www.math.uwaterloo.ca/~strosche/pps.html">Pure Postgraduate Seminar</a>"
+event: "Pure Postgraduate Seminar"
 location: "St Andrews"
 link: "files/pps4-slides.pdf"
+eventlink: "http://www.math.uwaterloo.ca/~strosche/pps.html"
 date: 2016-04-06
 ---
 
@@ -104,9 +108,10 @@ date: 2016-01-26
 
 ---
 title: "Semilattice Congruences"
-event: "<a href="http://www.math.uwaterloo.ca/~strosche/pps.html">Pure Postgraduate Seminar</a>"
+event: "Pure Postgraduate Seminar"
 location: "St Andrews"
 link: "files/pps3-slides.pdf"
+eventlink: "http://www.math.uwaterloo.ca/~strosche/pps.html"
 date: 2015-10-02
 ---
 
@@ -128,9 +133,10 @@ date: 2015-03-18
 
 ---
 title: "<i>DiSparse6</i>: a handy way for computers to remember digraphs"
-event: "<a href="http://www.math.uwaterloo.ca/~strosche/pps.html">Pure Postgraduate Seminar</a>"
+event: "Pure Postgraduate Seminar"
 location: "St Andrews"
 link: "files/pps2-slides.pdf"
+eventlink: "http://www.math.uwaterloo.ca/~strosche/pps.html"
 date: 2015-02-10
 ---
 
@@ -144,9 +150,10 @@ date: 2015-01-28
 
 ---
 title: "Computing with Semigroup Congruences"
-event: "<a href="http://www.math.uwaterloo.ca/~strosche/pps.html">Pure Postgraduate Seminar</a>"
+event: "Pure Postgraduate Seminar"
 location: "St Andrews"
 link: "files/pps1-slides.pdf"
+eventlink: "http://www.math.uwaterloo.ca/~strosche/pps.html"
 date: 2014-10-31
 ---
 
