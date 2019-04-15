@@ -4,7 +4,7 @@ collection: publications
 date: 2018-07-31
 venue: 'Advances in Mathematics'
 paperurl: 'https://doi.org/10.1016/j.aim.2018.05.016'
-citation: 'J. East, J. D. Mitchell, N. Ruškuc and M. Torpey. **Congruence lattices of finite diagram monoids**, *Advances in Mathematics* **333** (Jul 2018) 931--1003.'
+citation: 'J. East, J. D. Mitchell, N. Ruškuc and M. Torpey. <b>Congruence lattices of finite diagram monoids</b>, <i>Advances in Mathematics</i> <b>333</b> (Jul 2018) 931&ndash;1003.'
 ---
 
 We give a complete description of the congruence lattices of the following
