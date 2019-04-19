@@ -1,0 +1,47 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.event | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.event %}
+{% endif %}
+
+<tr class="{{ include.type | default: "list" }}__item">
+  {% if include.type == "grid" and teaser %}
+    <td class="archive__item-teaser">
+      <img src=
+        {% if teaser contains "://" %}
+          "{{ teaser }}"
+        {% else %}
+          "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+        {% endif %}
+        alt="">
+    </td>
+  {% endif %}
+  <td class="archive__item-title" itemprop="headline">
+    {% if post.link %}
+      <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+    {% else %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    {% endif %}
+  </td>
+  <!--{% if post.read_time %}<td class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</td>{% endif %}*/-->
+  {% if post.date %}<td class="archive__item-date"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date }}</td>{% endif %}
+  {% if post.event %}
+    <td class="archive__item-excerpt" itemprop="description">
+      {% if post.eventlink %}
+        <a href="{{ post.eventlink }}">{{ post.event }},</a>
+      {% else %}
+        {{post.event}},
+      {% endif %}
+      {{post.location}}
+    </td>
+  {% endif %}
+  <!--{% if post.excerpt %}<td class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</td>{% endif %}-->
+</tr>
