@@ -32,14 +32,9 @@
     {% endif %}
   </td>
   <!--{% if post.read_time %}<td class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</td>{% endif %}*/-->
-  {% if post.date %}<td class="archive__item-date"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date }}</td>{% endif %}
+  {% if post.date %}<td class="archive__item-title">{{ post.date }}</td>{% endif %}
   {% if post.event %}
     <td class="archive__item-excerpt" itemprop="description">
-      {% if post.eventlink %}
-        <a href="{{ post.eventlink }}">{{ post.event }},</a>
-      {% else %}
-        {{post.event}},
-      {% endif %}
       {{post.location}}
     </td>
   {% endif %}
