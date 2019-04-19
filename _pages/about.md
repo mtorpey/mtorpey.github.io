@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Michael Torpey's homepage"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-This is the academic webpage of Michael Torpey. I am a research software
+This is the academic website of Michael Torpey. I am a research software
 engineer at the [School of Computer Science](https://www.cs.st-andrews.ac.uk/)
 in the [University of St Andrews](http://www.st-andrews.ac.uk/), where I am
 employed as part of the [OpenDreamKit project](https://opendreamkit.org/).
