@@ -13,7 +13,7 @@ do
     echo "Processing $talk..."
     cat $talk | tail -n +2 | head -n -1 > _temp.yml
     echo "\\item" >> _out.tex
-    echo "  $(cat _temp.yml | shyaml get-value date | head -1)," >> _out.tex
+    echo "  $(cat _temp.yml | shyaml get-value date | head -1 | ../_scripts/date.py)," >> _out.tex
     echo "  \\textit{$(cat _temp.yml | shyaml get-value title | sed 's/\*//g')}," >> _out.tex
     echo "  $(cat _temp.yml | shyaml get-value event)," >> _out.tex
     echo "  $(cat _temp.yml | shyaml get-value location)." >> _out.tex
