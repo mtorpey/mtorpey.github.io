@@ -2,3 +2,5 @@ _site/
 
 _talks/_out.tex
 _conferences/_out.tex
+_scripts/*.pyc
+_scripts/__pycache__/
