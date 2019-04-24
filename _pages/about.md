@@ -24,6 +24,13 @@ I have been based in the University of St Andrews since 2009, completing the
 degrees of BSc Computer Science/Mathematics in 2013 and MSc Mathematics with
 Distinction in 2014.
 
+As part of my MSc degree, I also wrote two dissertations on computational
+semigroup theory, each of which contained some original research:
+ * [Computing with Semigroup Congruences](files/mt5099-report.pdf)
+   (2014-09-05, MT5099 Dissertation for MSc Programme/s)
+ * [Computing with Congruences on Finite 0-Simple Semigroups](files/mt5991-report.pdf)
+   (2014-05-19, MT5991 Professional Skills for Mathematical Scientists)
+
 My Research
 ===========
 
