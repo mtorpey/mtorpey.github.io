@@ -16,7 +16,7 @@ author_profile: true
     <th>Event</th>
     <th>Date</th>
     <th>Location</th>
-    {% for post in site.conferences reversed %}
+    {% for post in site.conferences sort %}
       {% include archive-single-conference.html %}
     {% endfor %}
   </tr>
