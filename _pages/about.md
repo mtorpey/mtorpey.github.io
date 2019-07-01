@@ -8,17 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-This is the academic website of Michael Torpey. I am a research software
+This is the academic website of Dr Michael Torpey. I am a research software
 engineer at the [School of Computer Science](https://www.cs.st-andrews.ac.uk/)
 in the [University of St Andrews](http://www.st-andrews.ac.uk/), where I am
 employed as part of the [OpenDreamKit project](https://opendreamkit.org/).
 
 I undertook my PhD in the [School of Mathematics and
 Statistics](http://www.st-andrews.ac.uk/maths/) here in St Andrews, starting in
-September 2014. The final version of my thesis, [Semigroup Congruences:
-Computational Techniques and Theoretical
-Applications](files/mtorpey-phd-thesis-final.pdf), was accepted by the
-university in February 2019, and I expect to graduate in June.
+2014 and graduating in June 2019.  My thesis was entitled [Semigroup
+Congruences: Computational Techniques and Theoretical
+Applications](files/mtorpey-phd-thesis-final.pdf)
 
 I have been based in the University of St Andrews since 2009, completing the
 degrees of BSc Computer Science/Mathematics in 2013 and MSc Mathematics with
@@ -30,6 +29,9 @@ semigroup theory, each of which contained some original research:
    (2014-09-05, MT5099 Dissertation for MSc Programme/s)
  * [Computing with Congruences on Finite 0-Simple Semigroups](files/mt5991-report.pdf)
    (2014-05-19, MT5991 Professional Skills for Mathematical Scientists)
+
+From September 2019 I will be an associate lecturer (education-focused) in the
+school.
 
 My Research
 ===========
