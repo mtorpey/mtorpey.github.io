@@ -1,9 +1,17 @@
 ---
 layout: archive
-title: "Conferences and meetings"
+title: "Conferences"
 permalink: /conferences/
 author_profile: true
 ---
+
+<p>
+This is a list of all the conferences, workshops and meetings I have attended in
+my research career.  The dates shown for an event are the dates I was there, a
+subset of the whole event.  The date format is
+<a href="https://en.wikipedia.org/wiki/ISO_8601#Time_intervals">ISO 8601</a>,
+which everyone should use.
+</p>
 
 {% if site.talkmap_link == true %}
 
@@ -16,7 +24,8 @@ author_profile: true
     <th>Event</th>
     <th>Date</th>
     <th>Location</th>
-    {% for post in site.conferences reversed %}
+    {% assign sorted = (site.conferences | sort: 'daterange') | reverse %}
+    {% for post in sorted %}
       {% include archive-single-conference.html %}
     {% endfor %}
   </tr>
