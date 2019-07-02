@@ -122,7 +122,8 @@ include:
   - .htaccess
   - _pages
   - files
-  - CHANGELOG.md
+  - spinner.html
+  - places.txt
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
