@@ -1,5 +1,6 @@
 Aikman's
 BlackHorn
+Brewdog
 Café in the Park
 Café in the Square
 Central Bar
@@ -37,7 +38,6 @@ Rbar
 Rogue
 St Andrews Brewing Co, North St
 St Andrews Brewing Co, South St
-St Andrews Waffle Co
 Tailend
 Tanon
 The Adamson
