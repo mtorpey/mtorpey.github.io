@@ -8,16 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-This is the academic website of Dr Michael Torpey. I am a research software
-engineer at the [School of Computer Science](https://www.cs.st-andrews.ac.uk/)
-in the [University of St Andrews](http://www.st-andrews.ac.uk/), where I am
-employed as part of the [OpenDreamKit project](https://opendreamkit.org/).
+This is the academic website of Dr Michael Torpey.  I am an associate lecturer
+(education-focused) at the [School of Computer
+Science](https://www.cs.st-andrews.ac.uk/) in the [University of St
+Andrews](http://www.st-andrews.ac.uk/).
 
 I undertook my PhD in the [School of Mathematics and
 Statistics](http://www.st-andrews.ac.uk/maths/) here in St Andrews, starting in
 2014 and graduating in June 2019.  My thesis was entitled [Semigroup
 Congruences: Computational Techniques and Theoretical
-Applications](files/mtorpey-phd-thesis-final.pdf)
+Applications](files/mtorpey-phd-thesis-final.pdf).  After my PhD I moved to the
+School of Computer Science, where I spent one year as a research software
+engineer working on the [OpenDreamKit project](https://opendreamkit.org/),
+before taking up my current post in September 2019.
 
 I have been based in the University of St Andrews since 2009, completing the
 degrees of BSc Computer Science/Mathematics in 2013 and MSc Mathematics with
@@ -30,19 +33,16 @@ semigroup theory, each of which contained some original research:
  * [Computing with Congruences on Finite 0-Simple Semigroups](files/mt5991-report.pdf)
    (2014-05-19, MT5991 Professional Skills for Mathematical Scientists)
 
-From September 2019 I will be an associate lecturer (education-focused) in the
-school.
-
 My Research
 ===========
 
-My main interest is in computational semigroup theory; across the period of my
+My main research interest is in computational algebra; across the period of my
 MSc and PhD I contributed to the [GAP](http://www.gap-system.org/) computational
 algebra system, and in particular to the
 [Semigroups](http://gap-packages.github.io/Semigroups/)
 and
 [Digraphs](http://www-groups.mcs.st-and.ac.uk/~jamesm/digraphs.php)
-packages for GAP. One particular area of my focus is on computing semigroup
+packages for GAP. One particular area of my focus has been on computing semigroup
 congruences; I have written and implemented a number of algorithms for this in
 the Semigroups package. Since submitting my thesis, I have also become a main
 author of the
@@ -50,7 +50,9 @@ author of the
 and
 [MathInTheMiddle](https://gap-packages.github.io/MathInTheMiddle/)
 packages for GAP, as well as creating
-[pypersist](https://github.com/mtorpey/pypersist),
-a new persistent memoisation framework for Python. I also created
-[PackageManager](https://github.com/gap-packages/PackageManager),
-a package management system for GAP.
+[pypersist](https://github.com/mtorpey/pypersist) and
+[Memoisation](https://github.com/gap-packages/Memoisation),
+a Python library and a GAP package for persistent memoisation in the two
+systems. I also created
+[PackageManager](https://github.com/gap-packages/PackageManager), a package
+management system for GAP.
