@@ -45,7 +45,7 @@
         now = new Date();
         seed = "" + now.toISOString().slice(0, 10)
         str = "Hashing today's date: '" + seed + "' ("
-        str += ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"][now.getDay()-1]
+        str += ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"][now.getDay()]
         str += ") <br />"
 
         h = hash(seed)
